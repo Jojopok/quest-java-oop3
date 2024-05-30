@@ -4,11 +4,11 @@ public abstract class Bird {
     private String name;
     private int age;
 
-    // constructors
-    public Bird() {
+    public Bird(String name) {
         this.name = name;
         this.age = 0;
     }
+
 
     // getters and setters
     public String getName() {
@@ -27,6 +27,5 @@ public abstract class Bird {
         this.age = age;
     }
 
-    // méthodes
     public abstract String sing();
 }

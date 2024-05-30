@@ -4,7 +4,7 @@ public class Penguin extends Bird implements Swim {
     private int depths;
 
     public Penguin(String name) {
-        super();
+        super(name);
         this.swimming = false;
         this.depths = 0;
     }

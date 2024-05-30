@@ -4,7 +4,9 @@ public class Eagle extends Bird implements Fly {
     private int altitude;
 
     public Eagle(String name) {
-        super();
+        super(name);
+        this.flying = false;
+        this.altitude = 0;
     }
 
     @Override
