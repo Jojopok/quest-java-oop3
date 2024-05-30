@@ -7,12 +7,6 @@ public class Eagle extends Bird implements Fly {
         super();
     }
 
-    // constructors, getters and setters...
-
-    public Eagle() {
-        super();
-    }
-
     @Override
     public void takeOff() {
         if (!this.flying && this.altitude == 0) {
